@@ -1,0 +1,19 @@
+input{
+    border-style: dotted;
+}
+
+textarea{
+    border-radius: 100%;
+}
+
+select{
+    zoom: 256%;
+}
+#checkbox{
+    zoom: 500%;
+    margin-left: 15%;
+}
+#radio{
+    zoom: 500%;
+    opacity: 35%;
+}

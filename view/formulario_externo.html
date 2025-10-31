@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EXTERNO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../public/css/estilos.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <main>
+        <form action="server.html" method="get">
+            <input type="text">
+            <br>
+            
+            <textarea name="escritura" id="borde-textarea"></textarea>
+            <br>
+
+            <select name="musica_favorita[]" id="musica_favorita" multiple required size="10" autofocus>
+                <optgroup title="REGUETON" label="REGUETON">
+                    <option value="Loba" selected>Shakira Loba</option>
+                    <option value="anoche" selected>BAD BUNNY anoche</option>
+                    <option value="ALL_of_me" disabled selected>John lennon all of me</option>
+                    <option value="triste">JOSE JOSE TRISTE</option>
+                </optgroup>
+
+                <optgroup title="CHICHA" label="CHICHA">
+                    <option value="Loba">Shakira Loba</option>
+                    <option value="anoche" selected>BAD BUNNY anoche</option>
+                    <option value="ALL_of_me">John lennon all of me</option>
+                    <option value="triste">JOSE JOSE TRISTE</option>
+                </optgroup>
+            </select>
+
+            <br><br>
+
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <br><br>
+
+            <input type="radio" name="radio" id="radio">
+        </form>
+    </main>
+</body>
+</html>
